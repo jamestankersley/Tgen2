@@ -1,0 +1,35 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Add employee profiles to a web page.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestankersley/Tgen2.git"
+  },
+  "keywords": [
+    "team",
+    "profile",
+    "generator"
+  ],
+  "author": "James Tankersley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamestankersley/Tgen2/issues"
+  },
+  "homepage": "https://github.com/jamestankersley/Tgen2#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "production": "0.0.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
